@@ -1,0 +1,93 @@
+html{
+    font-size: 15px;
+}
+
+
+/* difference between rem,em and px */
+
+.container{
+  
+    
+    color:red;
+    font-size: 20px;
+    
+}
+
+.para1{
+    
+    color: green;
+    font-size: 2rem;
+}
+.para2{
+    
+    color: blue;
+    font-size: 2em;
+}
+
+
+
+/* CSS chaining */
+
+.container p{
+    border: 2px solid black;
+}
+
+
+
+#para4,#para5,#para6{
+    border: 1px solid black;
+}
+
+  p > p{
+    color: aqua;
+  }
+
+
+  
+
+
+  p~p{
+    color:grey;
+  }
+
+  div+p{
+    color:orange;
+  }
+
+
+  /* vh and vw */
+  #vw{
+    width: 10vw;
+  }
+  #vh{
+    height: 50vh;
+  }
+
+
+
+/* 
+  transition property */
+.box1{
+    background-color: green;
+    width: 50px;
+    height: 50px;
+   
+    transition: width 5s;
+   
+}
+
+.box1:hover{
+    width:500px;
+    
+}
+
+
+/* transform property */
+.box2{
+
+    margin-top: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    transform: rotate(30deg);
+}
